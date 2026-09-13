@@ -1,0 +1,10 @@
+{
+  "name": "ecoimpact-monorepo",
+  "version": "1.0.0",
+  "description": "EcoImpact Environmental Screening Platform",
+  "scripts": {
+    "install:all": "npm.cmd --prefix server install && npm.cmd --prefix client install",
+    "server": "npm.cmd --prefix server run dev",
+    "client": "npm.cmd --prefix client run dev"
+  }
+}
